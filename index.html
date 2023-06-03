@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Home</title>
+</head>
+
+<body>
+  <header>
+    <h2 class="logo">PHAMNGHIA</h2>
+    <nav class="navigation">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+      <button class="butlogin1">login</button>
+    </nav>
+  </header>
+  <main>
+    <div class="wrapper active">
+      <span class="icon-close"><ion-icon name="close"></ion-icon> </span>
+      <div class="login">
+        <h3>Login</h3>
+        <form action="#">
+          <div class="input-login">
+            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+            <input type="email" required>
+            <label>Email</label>
+          </div>
+          <div class="input-login">
+            <span class="icon"><ion-icon name="lock"></ion-icon></span>
+            <input type="password" required>
+            <label>Password</label>
+          </div>
+          <div class="remember-fogot">
+            <label><input type="checkbox">Remeber Me</label>
+            <a href="#">Fogot Password!</a>
+          </div>
+          <button type="submit" class="butlogin">Login</button>
+          <div class="register-login">
+            <p>Don't have an account? <a href="#" class="register-link">Register here</a></p>
+          </div>
+        </form>
+      </div>
+      <div class="register">
+        <h3>Registration</h3>
+        <form action="#">
+          <div class="input-login">
+            <span class="icon"><ion-icon name="person"></ion-icon></span>
+            <input type="text" required>
+            <label>UserName</label>
+          </div>
+          <div class="input-login">
+            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+            <input type="email" required>
+            <label>Email</label>
+          </div>
+          <div class="input-login">
+            <span class="icon"><ion-icon name="lock"></ion-icon></span>
+            <input type="password" required>
+            <label>Password</label>
+          </div>
+          <div class="remember-fogot">
+            <label><input type="checkbox">I agree to the terms & conditions</label>
+          </div>
+          <button type="submit" class="butlogin">Register</button>
+          <div class="register-login">
+            <p>Already have an account? <a href="#" class="login-link">Login</a></p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </main>
+  <footer>
+  </footer>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+
+</html>
